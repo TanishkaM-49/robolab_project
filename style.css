@@ -1,0 +1,26 @@
+body { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f7f8fc; color: #172033; }
+.navbar-brand { letter-spacing: .2px; }
+.hero-section { padding: 90px 0; background: linear-gradient(135deg, #eef4ff 0%, #ffffff 60%, #f2f0ff 100%); }
+.hero-section h1 { max-width: 650px; }
+.robot-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 24px; padding: 42px; text-align: center; box-shadow: 0 18px 50px rgba(0,0,0,.08); }
+.section-heading { margin-bottom: 32px; }
+.section-heading h1, .section-heading h2 { font-weight: 750; }
+.section-heading p { color: #667085; }
+.eyebrow { color: #0d6efd; font-size: .8rem; font-weight: 800; letter-spacing: .12em; }
+.stat-card, .content-card, .project-card, .team-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 18px; padding: 24px; box-shadow: 0 8px 30px rgba(16,24,40,.05); }
+.stat-card span, .stat-card small { display:block; color:#667085; }
+.stat-card strong { display:block; font-size:2.1rem; margin:6px 0; }
+.notice { padding: 14px 0; border-bottom: 1px solid #edf0f5; }
+.notice:last-child { border-bottom:0; }
+.notice p { margin:.25rem 0 0; color:#667085; }
+.project-card { height:100%; }
+.project-card h3 { margin: 14px 0 8px; font-size:1.25rem; }
+.project-card p { color:#667085; min-height:76px; }
+.project-icon { font-size: 2.4rem; margin-bottom: 12px; }
+.team-card { text-align:center; height:100%; }
+.avatar { width:70px; height:70px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 16px; background:#e9efff; color:#0d6efd; font-weight:800; font-size:1.2rem; }
+.team-card h3 { font-size:1.1rem; margin-bottom:5px; }
+.team-card p { color:#667085; }
+.footer { margin-top: 50px; padding: 24px 0; background:#111827; color:#cbd5e1; }
+.table > :not(caption) > * > * { padding: 1rem .75rem; }
+@media (max-width: 767px) { .hero-section { padding: 60px 0; } .stat-card { text-align:center; } }
